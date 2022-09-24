@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="casting" type="castingType"/>
+    <xs:complexType name="castingType">
+        <xs:sequence>
+            <xs:element ref="actor" maxOccurs="unbounded"/>
+        </xs:sequence>       
+    </xs:complexType>
+    <xs:element name="actor" type="actorType"/>
+    <xs:complexType name="actorType">
+        <xs:attribute name="nbActor" type="xs:string"/>
+        <xs:attribute name="num" type="xs:string"/>
+        <xs:attribute name="lastname" type="xs:string"/>
+        <xs:attribute name="firstname" type="xs:string"/>
+        <xs:attribute name="role" type="roleListType"/>
+    </xs:complexType>     
+    <xs:simpleType name="roleListType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="firstRole"/>
+            <xs:enumeration value="secondRole"/>
+            <xs:enumeration value="guessStar"/>
+            <xs:enumeration value="extra"/>
+        </xs:restriction>
+    </xs:simpleType>    
+</xs:schema>

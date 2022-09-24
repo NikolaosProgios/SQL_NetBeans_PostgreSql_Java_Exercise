@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ListActors" type="ListActorsType"/>
+    <xs:complexType name="ListActorsType">
+        <xs:sequence>
+            <xs:element ref="Actor" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="Actor" type="ActorType"/>   
+    <xs:complexType name="ActorType">
+        <xs:sequence>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="sex" type="xs:string"/>
+            <xs:element name="DateofBirth" type="xs:string"/>
+            
+        </xs:sequence>
+        <xs:attribute name="nbActor" type="xs:string"/>
+    </xs:complexType>
+</xs:schema>

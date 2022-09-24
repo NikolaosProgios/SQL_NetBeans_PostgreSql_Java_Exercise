@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catalog>
+    <Movie nationality="American">
+        <num>0001</num>
+        <titleMovie>The Break Up</titleMovie>
+        <originalLanguage>english</originalLanguage>
+        <yearOfProduction>2005</yearOfProduction>
+        <duration>01:46:00</duration>
+        <genre>Comedy</genre>
+        <!-- hh:mm:ss" -->
+    </Movie>
+    <Movie nationality="Korean">
+        <num>0002</num>
+        <titleMovie>My sassy girl</titleMovie>
+        <originalLanguage>korean</originalLanguage>
+        <yearOfProduction>2001</yearOfProduction>
+        <dur>02:03:00</dur>
+        <genre>Comedy</genre>
+        <genre>Drama</genre>
+    </Movie>   
+    <Movie nationality="American">
+        <num>0003</num>
+        <titleMovie>50 First Dates</titleMovie>
+        <originalLanguage>english</originalLanguage>
+        <yearOfProduction>2003</yearOfProduction>
+        <duration>01:46:00</duration>
+        <genre>Comedy</genre>
+        <genre>Romance</genre>
+    </Movie>
+    <Movie nationality="American">
+        <num>0004</num>
+        <titleMovie>A Cinderella Story</titleMovie>
+        <originalLanguage>english</originalLanguage>
+        <yearOfProduction>2003</yearOfProduction>
+        <duration>01</duration>
+        <genos>Comedy</genos>
+    </Movie>
+    
+	<Movie nationality="American-British">
+        <num>0005</num>
+        <titleMovie>Nottinsg Hill</titleMovie>
+        <originalLanguage>english</originalLanguage>
+        <yearOfProduction>1999</yearOfProduction>
+        <duration>02:03:00</duration>
+        <genre>Comedy</genre>
+        <genre>Romance</genre>
+    </Movie>
+	
+	<Movie nationality="Spanish-French-British">
+        <num>0006</num>
+        <titleMovie>Oxford Murders</titleMovie>
+        <originalLanguage>english</originalLanguage>
+        <yearOfProduction>2007</yearOfProduction>
+        <duration>01:43:00</duration>
+        <genre>Thriller<genre>
+    </Movie>
+	
+	<Movie nationality="American">
+        <num>0007</num>
+        <titleMovie>Ocean's Twelve</titleMovie>
+        <originalLanguage>english</originalLanguage>
+        <yearOfProduction>2004</yearOfProduction>
+        <duration>02:05:00</duration>
+        <genre>Comedy<genre>
+        <genre>Detective</genre>
+    </Movie>
+    <Movie nationality="Chinese">
+        <num>0008</num>
+        <titleMovie>Shaolin soccer</titleMovie>
+        <originalLanguage>chinese</originalLanguage>
+        <yearOfProduction>2002</yearOfProduction>
+        <duration>01:30:00</duration>
+        <genre>Comedy</genre>
+        <genre>Action</genre>
+    </Movie>
+    <Movie nationality="American">
+        <num>0009</num>
+        <titleMovie>Pay it Forward</titleMovie>
+        <originalLanguage>English</originalLanguage>
+        <yearOfProduction>2000</yearOfProduction>
+        <duration>02:03:00</duration>
+        <genre>Comedy</genre>
+        <genre>Drama</genre>
+    </Movie>
+    <Movie nationality="American">
+        <num>0010</num>
+        <titleMovie>The Sixth Sense</titleMovie>
+        <originalLanguage>english</originalLanguage>
+        <yearOfProduction>2000</yearOfProduction>
+        <duration>01:47:00</duration>
+        <genre>Drama</genre>
+        <genre>Thriller</genre>
+    </Movie>
+</Catalog>

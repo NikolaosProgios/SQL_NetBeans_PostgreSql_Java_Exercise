@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<casting>
+    <actor num="0010" nbActor="14" role="firstRole"/>
+    <actor num="0010" nbActor="11" role="secondRole"/>
+    <actor num="0010" nbActor="5" />
+    <actor num="0007" nbActor="9" role="firstRole"/>
+    <actor num="0009" nbactor="12" role="firstRole"/>
+    <actor num="0004" nbActor="2" role="firstRole"/>
+    <actor num="0005" nbActor="3" role="firstRole"/>
+    <Actor num="0007" nbActor="3" role="firstRole"/>
+    <actor num="0007" nbActor="7" role="firstRole"/>
+    <Actor num="0007" nbActor="5" role="secondRole"/>    
+    <actor num="0007" nbActor="8" role="firstRole"/>    
+	<actor num="0007" nbActor="6" role="secondRole"/>    
+	<actor num="0009" nbActor="11" rol="firstRole"/> 
+	<actor num="0009" nbActor="11" rol="firstRole"/> 	
+</casting>

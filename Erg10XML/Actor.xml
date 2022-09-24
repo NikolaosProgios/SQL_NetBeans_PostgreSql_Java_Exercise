@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListActors>
+    <Actor nbActor="1">
+        <lastName>Cage</lastName>
+        <firstName>Nicolas</firstName>
+        <se>M</se>
+        <DateofBirth>1954-02-15</DateofBirth>
+    </Actor>
+    <Actor nbActor="2">
+        <lastName>Duff</lastName>
+        <firstName>Hilary</firstName>
+        <sex>F</sex>
+        <DateofBirth>1986-12-21</DateofBirth>
+    </Actor>
+    <Actor nbActor="3">
+        <lastName>Roberts</lastName>
+        <firstName>Julia</firstName>
+        <sex>F</sex>
+        <DateofBirth>1967-10-28</DateofBirth>
+    </Actor>
+    <Actor nbActor="4">
+        <lastName>Duff</lastName>
+        <firstName>Hilary</firstName>
+        <sex>F</sex>
+        <DateofBirth>1986-12-21</DateofBirth>
+    </Actor>
+    <Actor nbActor="5">
+        <lastName>Clooney</lastName>
+        <firstName>George</firstName>
+        <sex>M</sex>
+        <DateofBirth>1961-05-06</DateofBirth>
+    </Actor>
+    <Actor nbActor="6">
+        <lastName>Pitt</lastName>
+        <firstName>Brad</firstName>
+        <sex>M</sex>
+        <DateofBirth>1963-12-18</DateofBirth>
+    </Actor>
+    <Actor nbActor="7">
+        <lastName>Damon</lastName>
+        <firstName>Matt</firstName>
+        <se>M</se>
+        <DateofBirth>1970-10-08</DateofBirth>
+    </Actor>
+    <Actor nbActor="8">
+        <lastName>Pitt</lastName>
+        <firstName>Brad</firstName>
+        <sex>M</sex>
+        <DateofBirth>1963-12-18</DateofBirth>
+    </Actor>
+    <Actor nbActor="9">
+        <lastName>Zeta-Jones</lastName>
+        <firstName>Catherine</firstName>
+        <sex>F</sex>
+        <DateofBirth>1969-09-25</DateofBirth>
+    </Actor>
+    <Actor nbActor="10">
+        <lastName>Holmes</lastName>
+        <firstName>Katie</firstName>
+        <sex>F</sex>
+        <DateofBirth>1978-12-18</DateofBirth>
+    </Actor>
+    <Actor nbActor="11">
+        <lastName>Osment</lastName>
+        <firstName>Haley Joel</firstName>
+        <sex>M</sex>
+        <DateofBirth>1988-04-18</DateofBirth>
+    </Actor>
+    <Actor nbActor="12">
+        <lastName>Hunt</lastName>
+        <firstName>Helen</firstName>
+        <sex>F</sex>
+        <DateofBirth>1963-06-15</DateofBirth>
+    </Actor>
+	
+	<Actor nbActor="13">
+        <lastName>Jackson</lastName>
+        <firstName>Joshua</firstName>
+        <sex>M</sex>
+        <DateofBirth>1978-06-11</DateofBirth>
+    </Actor>
+	
+	<Actor nbActor="14">
+        <lastName>Willis</lastName>
+        <firstName>Bruce</firstName>
+        <sex>M</sex>
+        <DateofBirth>1955-03-19</DateofBirth>
+    </Actor>
+	
+	
+</ListActors>

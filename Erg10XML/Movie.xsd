@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Catalog" type="CatalogType"/>
+    <xs:element name="Movie" type="MovieType"/>   
+    <xs:complexType name="CatalogType">
+        <xs:sequence>
+            <xs:element ref="Movie" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>    
+    <xs:complexType name="MovieType">
+        <xs:sequence>
+            <xs:element name="num" type="xs:integer"/>
+            <xs:element name="titleMovie" type="xs:string"/>
+            <xs:element name="originalLanguage" type="LangType"/>
+            <xs:element name="yearOfProduction" type="xs:gYear"/>
+            <xs:element name="duration" type="xs:time"/>
+            <xs:element name="genre" type="GenreType" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="nationality" type="xs:string"/>
+    </xs:complexType>
+    <xs:simpleType name="LangType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="english"/>
+            <xs:enumeration value="french"/>
+            <xs:enumeration value="korean"/>
+            <xs:enumeration value="chinese"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="GenreType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Horror"/>
+            <xs:enumeration value="Fantasy"/>
+            <xs:enumeration value="Drama"/>
+            <xs:enumeration value="Thriller"/>        
+            <xs:enumeration value="Comedy"/>
+            <xs:enumeration value="Romance"/> 
+            <xs:enumeration value="Adventure"/> 
+            <xs:enumeration value="Science fiction"/> 
+            <xs:enumeration value="Detective"/> 
+            <xs:enumeration value="Dramatic comedy"/>           
+            <xs:enumeration value="Action"/>           
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
